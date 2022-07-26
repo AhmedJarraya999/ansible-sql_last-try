@@ -1,0 +1,5 @@
+---
+- name: Ping Servers
+  hosts: sbservers
+  tasks:
+  - ping:
