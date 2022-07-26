@@ -1,5 +1,5 @@
 ---
 - name: Ping Servers
-  hosts: dbservers
+  hosts: linux_hosts
   tasks:
   - ping:
